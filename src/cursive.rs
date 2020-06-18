@@ -42,7 +42,8 @@ pub struct Cursive {
 
     active_screen: ScreenId,
 
-    running: bool,
+    /// running
+    pub running: bool,
 
     backend: Box<dyn backend::Backend>,
 
