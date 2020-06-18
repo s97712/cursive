@@ -40,7 +40,7 @@ pub struct Cursive {
     // If it changed, clear the screen.
     last_sizes: Vec<Vec2>,
 
-    running: bool,
+    pub running: bool,
 
     backend: Box<dyn backend::Backend>,
 
